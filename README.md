@@ -41,6 +41,18 @@ converter
     console.error("Conversion error: " + err);
   });
 
+// If you would like to disable printing of the converted html output,
+// just call converter.disablePrinting()
+converter
+  .convert()
+  .then(function() {
+    converter.disablePrinting();
+    console.log("Success");
+  })
+  .catch(function(err) {
+    console.error("Conversion error: " + err);
+  });
+
 // If you would like to tap into progress then create
 // progress handler
 converter.progress(function(ret) {

@@ -1,6 +1,6 @@
 {
   "name": "pdftohtml",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "url": "https://github.com/alanhk89/pdftohtml/issues",
   "description": "PDF to HTML (pdf2htmlex) shell wrapper",
   "main": "index.js",
