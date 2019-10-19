@@ -1,0 +1,31 @@
+{
+  "name": "pdftohtml",
+  "version": "0.0.1",
+  "url": "https://github.com/alanhk89/pdftohtml/issues",
+  "description": "PDF to HTML (pdf2htmlex) shell wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.1.0",
+    "nyc": "^11.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alanhk89/pdftohtml.git"
+  },
+  "bin": {
+    "pdftohtml": "./bin/pdftohtml"
+  },
+  "keywords": [
+    "pdf2htmlex",
+    "shelljs",
+    "pdf",
+    "html5",
+    "converter"
+  ],
+  "author": "Alan Cheung",
+  "license": "ISC"
+}
