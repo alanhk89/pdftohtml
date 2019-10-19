@@ -1,6 +1,6 @@
 {
   "name": "pdftohtml",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "url": "https://github.com/alanhk89/pdftohtml/issues",
   "description": "PDF to HTML (pdf2htmlex) shell wrapper",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "url": "https://github.com/alanhk89/pdftohtml.git"
   },
   "bin": {
-    "pdftohtml": "./bin/pdftohtml"
+    "pdftohtml": "./bin/cli.js"
   },
   "keywords": [
     "pdf2htmlex",
